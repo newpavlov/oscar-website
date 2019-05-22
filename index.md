@@ -6,7 +6,7 @@
 
 Dataset sequences can be downloaded from [http://oscar.skoltech.ru/data/](http://oscar.skoltech.ru/data/).
 
-Note that right now only a small portion of dataset is currently uploaded.
+Note that currently only a small portion of dataset is uploaded.
 
 Each sequence is stored in a separate folder, which can contain the following files:
 - `left.tar` and `right.tar`: frames from left and right cameras respectively compressed using lossless algorithm. Each file inside tar archive is named as `<unix timestamp, us>_<monotonic clock, us>.flif`. For converting frmaes to PNG, PNM or JPEG, you can use `convert` utility from [here](https://github.com/SkoltechRobotics/oscar-cli). Please referer to the paper for more details.
